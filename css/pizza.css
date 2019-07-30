@@ -97,7 +97,7 @@ p1 {
     color: white;
     font-size: 30px;
 }
-#hidden1,#hidden2,#hidden3 {
+#hidden1 {
   display: none;
 }
 
