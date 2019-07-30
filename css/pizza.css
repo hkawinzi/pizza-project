@@ -97,7 +97,12 @@ p1 {
     color: white;
     font-size: 30px;
 }
-#hidden1 {
+#hidden1,#hidden2,#hidden3,#hidden4,#hidden5,#hidden6 {
+  display: none;
+  text-align: center;
+  font-weight: bold;
+} 
+
+.sh{
   display: none;
 }
-
