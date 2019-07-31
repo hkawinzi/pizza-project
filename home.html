@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/pizza.css">
     <title>home page</title>
-
+    <script type="text/javascript">
+        function conf()
+        {
+        var con=confirm("we have received your order");
+        }
+        </script>
+        
 </head>
 
 <body>
@@ -54,10 +60,10 @@
 				<br>
 				<label for="toppings">toppings</label>
 				<select class="browser-default custom-select custom-select-md mb-3" id="toppings">">
-                        <option value="bacon" >Mushroom</option>.<br>
-                        <option value="onion" >onions.<br>
-                        <option value=mashroom >mashroom.<br>
-                        <option id="extra cheese" >extra cheese<br>
+                        <option value="bacon" >Mushroom --100</option>.<br>
+                        <option value="onion" >onions -- 70<br>
+                        <option value=mashroom >mashroom --150<br>
+                        <option id="extra cheese" >extra cheese --200<br>
                     </select>
 
                 <button type="submit" class="btn btn-info proceed">ORDER</button>
@@ -98,31 +104,50 @@
             </div>
 
         </div>
-
+        <div class="col-md-5"></div>
+        <div class="col-md-4">
+            <strong>Delivery</strong> <br>
+            <select id="delivery-option">
+                <option value="1">Delivery</option>
+                <option value="2">No Delivery</option>
+            </select>
+        </div>
+    
+    
         <br>
         <br>
         <div id="delivery">
+
             <h1><em><u>DELIVERY</u><em></h1>
             <br>
+            
+            
 
-            <form action="">
-                <div class="form-group">
-                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                    <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                    <button class="btn btn-info" id="final-order">Place Order</button>
-                </div>
-            </form>
-        </div>
+
+              <form action="" 
+                <h1>delivery </h1>
+            
+                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+                                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                                <button class="btn btn-info" id="final-order">Place Order</button>
+            
+                
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+        <br>
+        <br>
         <div id="loading">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <p1>Thank you for reaching kawinzi$.Your oder has been received and is being processed</p1>
+        
         <div class="home">
             <div class="col">
                 <h1>pizza 1</h1>
                 <h1>Valley-Arcade</h1>
-                <h1>phone: 0721220140</h1/*!
+                <h1>phone: 0721220140</h1>
+<form><input type="submit" onClick="conf()"/></form>
