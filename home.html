@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="css/pizza.css">
     <title>home page</title>
     <script type="text/javascript">
-        function conf()
-        {
-        var con=confirm("we have received your order");
+        function conf() {
+            var con = confirm("we have received your order");
         }
-        </script>
-        
+    </script>
+
 </head>
 
 <body>
@@ -33,14 +32,14 @@
                     <option value="barbeque Pizza">Barbeque Pizza</option>
                     <option value="haiwaiian">Hawaiian Pizza</option>
                     <option value="vegetarian">Vegetarian Pizza</option>
-					<option value="Barbeque-Chicken">Barbeque Chicken Pizza</option>
-					
-				</select>
-				<br>
-				<label for="quantity">Quantity</label>
-					<input type="number" class="form-control" name="quantity" id="quantity" value="" min="1">
-				</select>
-				<br>
+                    <option value="Barbeque-Chicken">Barbeque Chicken Pizza</option>
+
+                </select>
+                <br>
+                <label for="quantity">Quantity</label>
+                <input type="number" class="form-control" name="quantity" id="quantity" value="" min="1">
+                </select>
+                <br>
                 <label for="select">Select Size</label>
                 <select class="browser-default custom-select custom-select-md mb-3" id="size">
                     <option value="mega">Mega -- sh. 1500</option>
@@ -56,15 +55,15 @@
                     <option value="Crispy">Crispy -- sh. 200</option>
                     <option value="Stuffed">Stuffed -- sh. 150</option>
                     <option value="Gluten-free">Gluten-free-- sh. 180</option>
-				</select>
-				<br>
-				<label for="toppings">toppings</label>
-				<select class="browser-default custom-select custom-select-md mb-3" id="toppings">">
-                        <option value="bacon" >Mushroom --100</option>.<br>
-                        <option value="onion" >onions -- 70<br>
-                        <option value=mashroom >mashroom --150<br>
-                        <option id="extra cheese" >extra cheese --200<br>
-                    </select>
+                </select>
+                <br>
+                <label for="toppings">toppings</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="toppings">">
+                    <option value="bacon">Mushroom --100</option>.<br>
+                    <option value="onion">onions -- 70<br>
+                    <option value=mashroom>mashroom --150<br>
+                    <option id="extra cheese">extra cheese --200<br>
+                </select>
 
                 <button type="submit" class="btn btn-info proceed">ORDER</button>
                 <br>
@@ -77,21 +76,21 @@
                 <table class="table table-sm  pizzatable">
                     <thead>
                         <tr>
-							<th scope="col">Name</th>
-							<th scope="col">Quantity</th>
-							<th scope="col">Size</th>
-							<th scope="col">crust</th>
-							<th scope="col">Topping</th>
-							<th scope="col">Total</th>
-							
+                            <th scope="col">Name</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">crust</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Total</th>
+
                         </tr>
                     </thead>
                     <tbody id="ordersmade">
                         <tr>
-							<td id="pizzaname"></td>
-							<td id="pizzaquantity"></td>
-							<td id="pizzasize"></td>
-							<td id="pizzacrust">
+                            <td id="pizzaname"></td>
+                            <td id="pizzaquantity"></td>
+                            <td id="pizzasize"></td>
+                            <td id="pizzacrust">
                             <td id="pizzatopping"></td>
                             <td id="totals"></td>
                         </tr>
@@ -112,30 +111,30 @@
                 <option value="2">No Delivery</option>
             </select>
         </div>
-    
-    
+
+
         <br>
         <br>
         <div id="delivery">
 
             <h1><em><u>DELIVERY</u><em></h1>
             <br>
-            
-            
 
 
-              <form action="" 
-                <h1>delivery </h1>
-            
-                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                                <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-                                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                                <button class="btn btn-info" id="final-order">Place Order</button>
-            
-                
-                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-              </form>
-            </div>
+
+
+            <form action=""></form>
+            <h1>delivery </h1>
+
+            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+            <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+            <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+            <button class="btn btn-info" id="final-order">Place Order</button>
+
+
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
         <br>
         <br>
         <div id="loading">
@@ -144,10 +143,16 @@
             <span></span>
             <span></span>
         </div>
-        
+
         <div class="home">
             <div class="col">
                 <h1>pizza 1</h1>
                 <h1>Valley-Arcade</h1>
                 <h1>phone: 0721220140</h1>
-<form><input type="submit" onClick="conf()"/></form>
+                <form><input type="submit" onClick="conf()" /></form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

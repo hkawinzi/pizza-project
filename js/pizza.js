@@ -23,7 +23,6 @@ $(function () {
     $("#hidden6").slideToggle(200);
   });
 
-
   var price, crust_price, topping_price;
   function Getpizza(name, size, crust, topping, total) {
     this.name = name;
